@@ -21,6 +21,7 @@ Current status: commit hashes not pinned in this repository yet.
 - Prompt scaffolding/categorization patterns reimplemented as original repository content
 
 ## Boundary
-- This repository is independently authored for SalesPortl workflows.
-- No bulk copy of upstream skill files, scripts, installers, or generated outputs.
-- No upstream branding claims included in shipped skill content.
+- This repository is an import mirror of the canonical SalesPortl skill suite source repository.
+- It redistributes copied SalesPortl `SKILL.md` files from the pinned source snapshot, plus minimal index/attribution files for harness import.
+- It does not redistribute bulk third-party upstream files, scripts, installers, or generated outputs beyond what was already reauthored into the canonical SalesPortl source repository.
+- No third-party upstream branding claims are added to the shipped import content.

@@ -27,19 +27,17 @@ skills/
 
 ## Module inventory
 
-| Module | Skills | Path |
-|---|---:|---|
-| ai-creative-skills | 4 | `skills/ai-creative-skills/` |
-| client-success | 6 | `skills/client-success/` |
-| core | 26 | `skills/core/` |
-| graphic-design-creation-skills | 3 | `skills/graphic-design-creation-skills/` |
-| marketing | 8 | `skills/marketing/` |
-| partners | 2 | `skills/partners/` |
-| print-design-skills | 3 | `skills/print-design-skills/` |
-| sales | 9 | `skills/sales/` |
-| seo-geo | 3 | `skills/seo-geo/` |
-| video-creation-skills | 4 | `skills/video-creation-skills/` |
-| website-creation-skills | 5 | `skills/website-creation-skills/` |
+- `skills/ai-creative-skills/` — 4 skills
+- `skills/client-success/` — 6 skills
+- `skills/core/` — 26 skills
+- `skills/graphic-design-creation-skills/` — 3 skills
+- `skills/marketing/` — 8 skills
+- `skills/partners/` — 2 skills
+- `skills/print-design-skills/` — 3 skills
+- `skills/sales/` — 9 skills
+- `skills/seo-geo/` — 3 skills
+- `skills/video-creation-skills/` — 4 skills
+- `skills/website-creation-skills/` — 5 skills
 
 ## Import guidance
 
@@ -52,4 +50,5 @@ skills/
 
 - Repository: https://github.com/danthamanvoiss/SalesPortl-Agency-Skills-Suite-v01
 - Commit: `12f7e3f9343e612125fb8595596f3b3b0360ec74`
-- License: `LICENSE`
+- Upstream license at snapshot: https://github.com/danthamanvoiss/SalesPortl-Agency-Skills-Suite-v01/blob/12f7e3f9343e612125fb8595596f3b3b0360ec74/LICENSE
+- Mirrored license text in this import repo: `LICENSE`
