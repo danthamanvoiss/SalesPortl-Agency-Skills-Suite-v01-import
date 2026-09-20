@@ -1,0 +1,1112 @@
+{
+  "suite": "SalesPortl Agency Skills Suite",
+  "version": "1.0.0",
+  "total_skills": 73,
+  "skills": [
+    {
+      "name": "agency-router",
+      "module": "core",
+      "category": "core",
+      "scope": "agency-workflow",
+      "description": "Top-level agency-skills-router that resolves context first, then routes to the smallest reliable skill set.",
+      "tags": [
+        "core",
+        "routing",
+        "safety",
+        "token-efficiency",
+        "v1"
+      ],
+      "version": "1.0.0",
+      "path": "skills/core/agency-router/SKILL.md"
+    },
+    {
+      "name": "sales-router",
+      "module": "core",
+      "category": "core",
+      "scope": "agency-workflow",
+      "description": "Route sales tasks to the right sales skill sequence with stage-specific clarifying questions and minimal overlap.",
+      "tags": [
+        "core",
+        "routing",
+        "sales",
+        "v1"
+      ],
+      "version": "1.0.0",
+      "path": "skills/core/sales-router/SKILL.md"
+    },
+    {
+      "name": "marketing-router",
+      "module": "core",
+      "category": "core",
+      "scope": "agency-workflow",
+      "description": "Route marketing work to the right planning, positioning, audit, or campaign skill with concise channel-specific clarification.",
+      "tags": [
+        "core",
+        "routing",
+        "marketing",
+        "v1"
+      ],
+      "version": "1.0.0",
+      "path": "skills/core/marketing-router/SKILL.md"
+    },
+    {
+      "name": "seo-geo-router",
+      "module": "core",
+      "category": "core",
+      "scope": "agency-workflow",
+      "description": "Route SEO and GEO requests to the right audit or content-review skill with lightweight visibility-specific clarification.",
+      "tags": [
+        "core",
+        "routing",
+        "seo",
+        "geo",
+        "v1"
+      ],
+      "version": "1.0.0",
+      "path": "skills/core/seo-geo-router/SKILL.md"
+    },
+    {
+      "name": "client-success-router",
+      "module": "core",
+      "category": "core",
+      "scope": "agency-workflow",
+      "description": "Route onboarding, review, retention, and expansion work to the right client-success skill with concise lifecycle clarification.",
+      "tags": [
+        "core",
+        "routing",
+        "client-success",
+        "v1"
+      ],
+      "version": "1.0.0",
+      "path": "skills/core/client-success-router/SKILL.md"
+    },
+    {
+      "name": "partners-router",
+      "module": "core",
+      "category": "core",
+      "scope": "agency-workflow",
+      "description": "Route partner, affiliate, and referral-program work to the right enablement skill with simple program-stage clarification.",
+      "tags": [
+        "core",
+        "routing",
+        "partners",
+        "v1"
+      ],
+      "version": "1.0.0",
+      "path": "skills/core/partners-router/SKILL.md"
+    },
+    {
+      "name": "ai-creative-router",
+      "module": "core",
+      "category": "core",
+      "scope": "creative-workflow",
+      "description": "Route AI-creative quality, pipeline, prompt-translation, and cross-asset consistency work to the right support skill.",
+      "tags": [
+        "core",
+        "routing",
+        "creative",
+        "ai",
+        "v1"
+      ],
+      "version": "1.0.0",
+      "path": "skills/core/ai-creative-router/SKILL.md"
+    },
+    {
+      "name": "website-creation-router",
+      "module": "core",
+      "category": "core",
+      "scope": "creative-workflow",
+      "description": "Route website creation work to the right web brief, wireframe, audit, motion, or prompt-adapter skill.",
+      "tags": [
+        "core",
+        "routing",
+        "website",
+        "creative",
+        "v1"
+      ],
+      "version": "1.0.0",
+      "path": "skills/core/website-creation-router/SKILL.md"
+    },
+    {
+      "name": "video-creation-router",
+      "module": "core",
+      "category": "core",
+      "scope": "creative-workflow",
+      "description": "Route video planning work to the right script, storyboard, edit-plan, or video-calendar skill with concise production-stage clarification.",
+      "tags": [
+        "core",
+        "routing",
+        "video",
+        "creative",
+        "v1"
+      ],
+      "version": "1.0.0",
+      "path": "skills/core/video-creation-router/SKILL.md"
+    },
+    {
+      "name": "graphic-design-router",
+      "module": "core",
+      "category": "core",
+      "scope": "creative-workflow",
+      "description": "Route graphic-design requests to the right identity, social-graphic, or icon/illustration skill with simple asset clarification.",
+      "tags": [
+        "core",
+        "routing",
+        "graphic-design",
+        "creative",
+        "v1"
+      ],
+      "version": "1.0.0",
+      "path": "skills/core/graphic-design-router/SKILL.md"
+    },
+    {
+      "name": "print-design-router",
+      "module": "core",
+      "category": "core",
+      "scope": "creative-workflow",
+      "description": "Route print collateral and packaging work to the right brief or checklist skill with lightweight production clarification.",
+      "tags": [
+        "core",
+        "routing",
+        "print",
+        "creative",
+        "v1"
+      ],
+      "version": "1.0.0",
+      "path": "skills/core/print-design-router/SKILL.md"
+    },
+    {
+      "name": "brand-context-brief-builder",
+      "module": "core",
+      "description": "Build or refresh reusable brand and client context briefs using known platform defaults first, then explicit gaps.",
+      "tags": [
+        "core",
+        "context",
+        "brand",
+        "onboarding"
+      ],
+      "version": "0.1.0",
+      "path": "skills/core/brand-context-brief-builder/SKILL.md",
+      "category": "core",
+      "scope": "agency-workflow"
+    },
+    {
+      "name": "brand-client-context-onboarding",
+      "module": "core",
+      "description": "Detect existing harness or file-based brand/client context, then fill only the missing gaps with reusable onboarding drafts.",
+      "tags": [
+        "core",
+        "context",
+        "onboarding",
+        "portability"
+      ],
+      "version": "0.1.0",
+      "path": "skills/core/brand-client-context-onboarding/SKILL.md",
+      "category": "core",
+      "scope": "agency-workflow"
+    },
+    {
+      "name": "context-loader",
+      "module": "core",
+      "description": "Resolve the best available harness, agency, or client context before running downstream skills.",
+      "tags": [
+        "core",
+        "context",
+        "routing",
+        "portability"
+      ],
+      "version": "0.1.0",
+      "path": "skills/core/context-loader/SKILL.md",
+      "category": "core",
+      "scope": "agency-workflow"
+    },
+    {
+      "name": "skill-handoff-protocol",
+      "module": "core",
+      "description": "Standardize a lightweight handoff block so one skill's output becomes clean input for the next skill.",
+      "tags": [
+        "core",
+        "workflow",
+        "handoff",
+        "portability"
+      ],
+      "version": "0.1.0",
+      "path": "skills/core/skill-handoff-protocol/SKILL.md",
+      "category": "core",
+      "scope": "agency-workflow"
+    },
+    {
+      "name": "output-organization-guide",
+      "module": "core",
+      "description": "Guide where drafts and reusable outputs should conceptually live across agency, client, and exploratory work.",
+      "tags": [
+        "core",
+        "organization",
+        "context",
+        "workflow"
+      ],
+      "version": "0.1.0",
+      "path": "skills/core/output-organization-guide/SKILL.md",
+      "category": "core",
+      "scope": "agency-workflow"
+    },
+    {
+      "name": "cross-harness-collaboration-notes",
+      "module": "core",
+      "description": "Keep this skill suite portable across harnesses by sharing context and handoff conventions without claiming live integrations.",
+      "tags": [
+        "core",
+        "portability",
+        "collaboration",
+        "documentation"
+      ],
+      "version": "0.1.0",
+      "path": "skills/core/cross-harness-collaboration-notes/SKILL.md",
+      "category": "core",
+      "scope": "agency-workflow"
+    },
+    {
+      "name": "skill-selection-guide",
+      "module": "core",
+      "category": "core",
+      "scope": "agency-workflow",
+      "description": "Help users and harnesses choose the smallest useful combination of router and direct skills for a task.",
+      "tags": [
+        "core",
+        "routing",
+        "guidance",
+        "v1"
+      ],
+      "version": "1.0.0",
+      "path": "skills/core/skill-selection-guide/SKILL.md"
+    },
+    {
+      "name": "release-readiness-check",
+      "module": "core",
+      "category": "core",
+      "scope": "agency-workflow",
+      "description": "Confirm a skill, router change, or catalog update is clear, complete, and ready to ship in the static suite.",
+      "tags": [
+        "core",
+        "release",
+        "quality",
+        "v1"
+      ],
+      "version": "1.0.0",
+      "path": "skills/core/release-readiness-check/SKILL.md"
+    },
+    {
+      "name": "skill-boundary-audit",
+      "module": "core",
+      "category": "core",
+      "scope": "agency-workflow",
+      "description": "Check nearby skills for overlap, ambiguity, or confused ownership so the suite stays easy to route.",
+      "tags": [
+        "core",
+        "routing",
+        "audit",
+        "v1"
+      ],
+      "version": "1.0.0",
+      "path": "skills/core/skill-boundary-audit/SKILL.md"
+    },
+    {
+      "name": "catalog-maintenance-guide",
+      "module": "core",
+      "category": "core",
+      "scope": "agency-workflow",
+      "description": "Keep catalog entries, paths, versions, categories, and counts aligned when the static skill library changes.",
+      "tags": [
+        "core",
+        "catalog",
+        "maintenance",
+        "v1"
+      ],
+      "version": "1.0.0",
+      "path": "skills/core/catalog-maintenance-guide/SKILL.md"
+    },
+    {
+      "name": "routing-confidence-check",
+      "module": "core",
+      "category": "core",
+      "scope": "agency-workflow",
+      "description": "Sanity-check whether the selected router path and skill stack are the clearest minimal fit for the task.",
+      "tags": [
+        "core",
+        "routing",
+        "quality",
+        "v1"
+      ],
+      "version": "1.0.0",
+      "path": "skills/core/routing-confidence-check/SKILL.md"
+    },
+    {
+      "name": "v1-launch-checklist",
+      "module": "core",
+      "category": "core",
+      "scope": "agency-workflow",
+      "description": "Provide a concise go-live checklist for publishing the suite as a stable v1.0.0 release.",
+      "tags": [
+        "core",
+        "release",
+        "checklist",
+        "v1"
+      ],
+      "version": "1.0.0",
+      "path": "skills/core/v1-launch-checklist/SKILL.md"
+    },
+    {
+      "name": "router-first-use-guide",
+      "module": "core",
+      "category": "core",
+      "scope": "agency-workflow",
+      "description": "Explain the quickest reliable way to use the router hierarchy for a new task or new harness installation.",
+      "tags": [
+        "core",
+        "routing",
+        "onboarding",
+        "v1"
+      ],
+      "version": "1.0.0",
+      "path": "skills/core/router-first-use-guide/SKILL.md"
+    },
+    {
+      "name": "context-first-workflow-guide",
+      "module": "core",
+      "category": "core",
+      "scope": "agency-workflow",
+      "description": "Document the simplest reliable order for resolving context, routing work, and handing outputs between skills.",
+      "tags": [
+        "core",
+        "context",
+        "workflow",
+        "v1"
+      ],
+      "version": "1.0.0",
+      "path": "skills/core/context-first-workflow-guide/SKILL.md"
+    },
+    {
+      "name": "crm-workflow-blueprint",
+      "module": "core",
+      "category": "core",
+      "scope": "agency-workflow",
+      "description": "Draft CRM workflow blueprint documentation covering lifecycle stages, owners, fields, and governance.",
+      "tags": [
+        "core",
+        "crm",
+        "workflow",
+        "blueprint"
+      ],
+      "version": "0.1.0",
+      "path": "skills/core/crm-workflow-blueprint/SKILL.md"
+    },
+    {
+      "name": "lead-qualification",
+      "module": "sales",
+      "description": "Run BANT/MEDDIC-inspired qualification with evidence vs unknown separation.",
+      "tags": [
+        "sales",
+        "qualification",
+        "bant",
+        "meddic"
+      ],
+      "version": "0.1.0",
+      "path": "skills/sales/lead-qualification/SKILL.md",
+      "category": "sales",
+      "scope": "agency-workflow"
+    },
+    {
+      "name": "discovery-call-prep",
+      "module": "sales",
+      "description": "Prepare discovery agenda, hypotheses, questions, and risks without invented prospect facts.",
+      "tags": [
+        "sales",
+        "discovery",
+        "prep"
+      ],
+      "version": "0.1.0",
+      "path": "skills/sales/discovery-call-prep/SKILL.md",
+      "category": "sales",
+      "scope": "agency-workflow"
+    },
+    {
+      "name": "outreach-sequence-draft",
+      "module": "sales",
+      "description": "Create compliant cold/warm/referral outreach drafts with opt-out awareness.",
+      "tags": [
+        "sales",
+        "outreach",
+        "email",
+        "draft-only"
+      ],
+      "version": "0.1.0",
+      "path": "skills/sales/outreach-sequence-draft/SKILL.md",
+      "category": "sales",
+      "scope": "agency-workflow"
+    },
+    {
+      "name": "proposal-scope-draft",
+      "module": "sales",
+      "description": "Draft scope, assumptions, exclusions, milestones, and approval questions.",
+      "tags": [
+        "sales",
+        "proposal",
+        "scoping",
+        "draft-only"
+      ],
+      "version": "0.1.0",
+      "path": "skills/sales/proposal-scope-draft/SKILL.md",
+      "category": "sales",
+      "scope": "agency-workflow"
+    },
+    {
+      "name": "salesportl-account-handoff",
+      "module": "sales",
+      "description": "Produce structured SalesPortl handoff notes as draft CRM-ready content.",
+      "tags": [
+        "sales",
+        "crm",
+        "handoff",
+        "draft-only"
+      ],
+      "version": "0.1.0",
+      "path": "skills/sales/salesportl-account-handoff/SKILL.md",
+      "category": "sales",
+      "scope": "agency-workflow"
+    },
+    {
+      "name": "website-marketing-audit",
+      "module": "marketing",
+      "description": "Audit messaging, trust, CTA, conversion, SEO, and measurement with evidence table.",
+      "tags": [
+        "marketing",
+        "audit",
+        "website",
+        "seo"
+      ],
+      "version": "0.1.0",
+      "path": "skills/marketing/website-marketing-audit/SKILL.md",
+      "category": "marketing",
+      "scope": "agency-workflow"
+    },
+    {
+      "name": "offer-positioning",
+      "module": "marketing",
+      "description": "Define ICP, pains, outcomes, differentiators, proof needs, and messaging pillars.",
+      "tags": [
+        "marketing",
+        "positioning",
+        "messaging"
+      ],
+      "version": "0.1.0",
+      "path": "skills/marketing/offer-positioning/SKILL.md",
+      "category": "marketing",
+      "scope": "agency-workflow"
+    },
+    {
+      "name": "campaign-plan",
+      "module": "marketing",
+      "description": "Build objective/audience/channel/asset/measurement plan with budget assumptions.",
+      "tags": [
+        "marketing",
+        "campaign",
+        "planning",
+        "draft-only"
+      ],
+      "version": "0.1.0",
+      "path": "skills/marketing/campaign-plan/SKILL.md",
+      "category": "marketing",
+      "scope": "agency-workflow"
+    },
+    {
+      "name": "content-calendar",
+      "module": "marketing",
+      "description": "Generate a 30-day content plan from provided business context and goals.",
+      "tags": [
+        "marketing",
+        "content",
+        "calendar",
+        "draft-only"
+      ],
+      "version": "0.1.0",
+      "path": "skills/marketing/content-calendar/SKILL.md",
+      "category": "marketing",
+      "scope": "agency-workflow"
+    },
+    {
+      "name": "landing-page-cro-review",
+      "module": "marketing",
+      "description": "Review conversion friction, hierarchy, proof, CTA, and experiment backlog.",
+      "tags": [
+        "marketing",
+        "cro",
+        "landing-page",
+        "experiments"
+      ],
+      "version": "0.1.0",
+      "path": "skills/marketing/landing-page-cro-review/SKILL.md",
+      "category": "marketing",
+      "scope": "agency-workflow"
+    },
+    {
+      "name": "seo-geo-opportunity-audit",
+      "module": "seo-geo",
+      "description": "Read-only SEO/GEO opportunity assessment across technical, content, entity, citation readiness.",
+      "tags": [
+        "seo",
+        "geo",
+        "audit",
+        "read-only"
+      ],
+      "version": "0.1.0",
+      "path": "skills/seo-geo/seo-geo-opportunity-audit/SKILL.md",
+      "category": "seo-geo",
+      "scope": "agency-workflow"
+    },
+    {
+      "name": "ai-citability-content-review",
+      "module": "seo-geo",
+      "description": "Improve direct-answer, evidence-rich, self-contained content without fake citations.",
+      "tags": [
+        "seo",
+        "geo",
+        "content",
+        "citability"
+      ],
+      "version": "0.1.0",
+      "path": "skills/seo-geo/ai-citability-content-review/SKILL.md",
+      "category": "seo-geo",
+      "scope": "agency-workflow"
+    },
+    {
+      "name": "local-visibility-review",
+      "module": "seo-geo",
+      "description": "Review local entity consistency and GBP readiness using supplied data only.",
+      "tags": [
+        "seo",
+        "local",
+        "entity",
+        "read-only"
+      ],
+      "version": "0.1.0",
+      "path": "skills/seo-geo/local-visibility-review/SKILL.md",
+      "category": "seo-geo",
+      "scope": "agency-workflow"
+    },
+    {
+      "name": "client-onboarding-plan",
+      "module": "client-success",
+      "description": "Build kickoff plan, access checklist, timeline, communication rhythm, and success measures.",
+      "tags": [
+        "client-success",
+        "onboarding",
+        "delivery"
+      ],
+      "version": "0.1.0",
+      "path": "skills/client-success/client-onboarding-plan/SKILL.md",
+      "category": "client-success",
+      "scope": "agency-workflow"
+    },
+    {
+      "name": "monthly-client-review",
+      "module": "client-success",
+      "description": "Create monthly narrative separating supplied metrics, interpretation, unknowns, and next actions.",
+      "tags": [
+        "client-success",
+        "reporting",
+        "review"
+      ],
+      "version": "0.1.0",
+      "path": "skills/client-success/monthly-client-review/SKILL.md",
+      "category": "client-success",
+      "scope": "agency-workflow"
+    },
+    {
+      "name": "retention-and-upsell-review",
+      "module": "client-success",
+      "description": "Evaluate account health, risk, value delivery, and expansion hypotheses safely.",
+      "tags": [
+        "client-success",
+        "retention",
+        "upsell"
+      ],
+      "version": "0.1.0",
+      "path": "skills/client-success/retention-and-upsell-review/SKILL.md",
+      "category": "client-success",
+      "scope": "agency-workflow"
+    },
+    {
+      "name": "affiliate-enablement",
+      "module": "partners",
+      "description": "Draft partner onboarding, positioning, referral process, and compliance guardrails.",
+      "tags": [
+        "partners",
+        "affiliate",
+        "enablement",
+        "draft-only"
+      ],
+      "version": "0.1.0",
+      "path": "skills/partners/affiliate-enablement/SKILL.md",
+      "category": "partners",
+      "scope": "agency-workflow"
+    },
+    {
+      "name": "appointment-setting-playbook",
+      "module": "sales",
+      "category": "sales",
+      "scope": "agency-workflow",
+      "description": "Draft appointment-setting sequences, qualification gates, and calendar handoff prompts using supplied lead context.",
+      "tags": [
+        "sales",
+        "appointment-setting",
+        "playbook",
+        "draft-only"
+      ],
+      "version": "0.1.0",
+      "path": "skills/sales/appointment-setting-playbook/SKILL.md"
+    },
+    {
+      "name": "objection-handling-draft",
+      "module": "sales",
+      "category": "sales",
+      "scope": "agency-workflow",
+      "description": "Draft evidence-aware objection responses and follow-up questions without overpromising outcomes.",
+      "tags": [
+        "sales",
+        "objection-handling",
+        "messaging",
+        "draft-only"
+      ],
+      "version": "0.1.0",
+      "path": "skills/sales/objection-handling-draft/SKILL.md"
+    },
+    {
+      "name": "pipeline-hygiene-review",
+      "module": "sales",
+      "category": "sales",
+      "scope": "agency-workflow",
+      "description": "Review pipeline records for stage accuracy, stale deals, missing fields, and next-action clarity.",
+      "tags": [
+        "sales",
+        "pipeline",
+        "crm",
+        "read-only"
+      ],
+      "version": "0.1.0",
+      "path": "skills/sales/pipeline-hygiene-review/SKILL.md"
+    },
+    {
+      "name": "meeting-followup-draft",
+      "module": "sales",
+      "category": "sales",
+      "scope": "agency-workflow",
+      "description": "Draft post-meeting recap, commitments, and next-step follow-up messages with explicit unknowns.",
+      "tags": [
+        "sales",
+        "follow-up",
+        "meetings",
+        "draft-only"
+      ],
+      "version": "0.1.0",
+      "path": "skills/sales/meeting-followup-draft/SKILL.md"
+    },
+    {
+      "name": "referral-program-activation",
+      "module": "partners",
+      "category": "partners",
+      "scope": "agency-workflow",
+      "description": "Draft referral-program activation plan, partner messaging, and compliance-aware rollout checklist.",
+      "tags": [
+        "partners",
+        "referrals",
+        "activation",
+        "draft-only"
+      ],
+      "version": "0.1.0",
+      "path": "skills/partners/referral-program-activation/SKILL.md"
+    },
+    {
+      "name": "paid-ads-brief-draft",
+      "module": "marketing",
+      "category": "marketing",
+      "scope": "agency-workflow",
+      "description": "Draft channel-ready paid ads brief with audience, offers, creative requirements, and measurement assumptions.",
+      "tags": [
+        "marketing",
+        "paid-ads",
+        "brief",
+        "draft-only"
+      ],
+      "version": "0.1.0",
+      "path": "skills/marketing/paid-ads-brief-draft/SKILL.md"
+    },
+    {
+      "name": "social-content-ops-plan",
+      "module": "marketing",
+      "category": "marketing",
+      "scope": "agency-workflow",
+      "description": "Plan social content operations rhythm, approvals, repurposing logic, and KPI tracking workflow.",
+      "tags": [
+        "marketing",
+        "social",
+        "operations",
+        "planning"
+      ],
+      "version": "0.1.0",
+      "path": "skills/marketing/social-content-ops-plan/SKILL.md"
+    },
+    {
+      "name": "creative-brief-generator",
+      "module": "marketing",
+      "category": "marketing",
+      "scope": "agency-workflow",
+      "description": "Generate cross-functional creative requirements briefs for downstream execution teams and tools.",
+      "tags": [
+        "marketing",
+        "creative-brief",
+        "requirements",
+        "draft-only"
+      ],
+      "version": "0.1.0",
+      "path": "skills/marketing/creative-brief-generator/SKILL.md"
+    },
+    {
+      "name": "churn-risk-early-warning",
+      "module": "client-success",
+      "category": "client-success",
+      "scope": "agency-workflow",
+      "description": "Assess churn risk signals from supplied account data and produce early-warning mitigation drafts.",
+      "tags": [
+        "client-success",
+        "churn",
+        "risk",
+        "read-only"
+      ],
+      "version": "0.1.0",
+      "path": "skills/client-success/churn-risk-early-warning/SKILL.md"
+    },
+    {
+      "name": "qbr-executive-summary-draft",
+      "module": "client-success",
+      "category": "client-success",
+      "scope": "agency-workflow",
+      "description": "Draft executive-ready QBR summary that aligns outcomes, risks, and next-quarter priorities.",
+      "tags": [
+        "client-success",
+        "qbr",
+        "executive-summary",
+        "draft-only"
+      ],
+      "version": "0.1.0",
+      "path": "skills/client-success/qbr-executive-summary-draft/SKILL.md"
+    },
+    {
+      "name": "service-expansion-planner",
+      "module": "client-success",
+      "category": "client-success",
+      "scope": "agency-workflow",
+      "description": "Plan evidence-gated service expansion opportunities with assumptions, dependencies, and validation gates.",
+      "tags": [
+        "client-success",
+        "expansion",
+        "planning",
+        "evidence-gates"
+      ],
+      "version": "0.1.0",
+      "path": "skills/client-success/service-expansion-planner/SKILL.md"
+    },
+    {
+      "name": "anti-slop-content-review",
+      "module": "ai-creative-skills",
+      "category": "ai-creative-skills",
+      "scope": "general-proficiency",
+      "description": "Review AI-generated creative outputs for generic/sloppy patterns and rewrite guidance for stronger taste.",
+      "tags": [
+        "ai-creative",
+        "quality",
+        "anti-slop",
+        "review"
+      ],
+      "version": "0.1.0",
+      "path": "skills/ai-creative-skills/anti-slop-content-review/SKILL.md"
+    },
+    {
+      "name": "ai-content-pipeline-builder",
+      "module": "ai-creative-skills",
+      "category": "ai-creative-skills",
+      "scope": "general-proficiency",
+      "description": "Design reusable prompt-chaining workflows for cohesive multi-step AI content production.",
+      "tags": [
+        "ai-creative",
+        "pipeline",
+        "prompt-chaining",
+        "workflow"
+      ],
+      "version": "0.1.0",
+      "path": "skills/ai-creative-skills/ai-content-pipeline-builder/SKILL.md"
+    },
+    {
+      "name": "prompt-to-brief-translator",
+      "module": "ai-creative-skills",
+      "category": "ai-creative-skills",
+      "scope": "general-proficiency",
+      "description": "Translate loose prompts into structured creative briefs with requirements, constraints, and acceptance criteria.",
+      "tags": [
+        "ai-creative",
+        "briefing",
+        "prompting",
+        "requirements"
+      ],
+      "version": "0.1.0",
+      "path": "skills/ai-creative-skills/prompt-to-brief-translator/SKILL.md"
+    },
+    {
+      "name": "cross-asset-consistency-check",
+      "module": "ai-creative-skills",
+      "category": "ai-creative-skills",
+      "scope": "general-proficiency",
+      "description": "Check consistency of messaging, style, and factual claims across multiple creative assets.",
+      "tags": [
+        "ai-creative",
+        "consistency",
+        "qa",
+        "governance"
+      ],
+      "version": "0.1.0",
+      "path": "skills/ai-creative-skills/cross-asset-consistency-check/SKILL.md"
+    },
+    {
+      "name": "web-design-brief-builder",
+      "module": "website-creation-skills",
+      "category": "website-creation-skills",
+      "scope": "creative-workflow",
+      "description": "Build website design requirements brief covering objectives, IA, UX constraints, and conversion goals.",
+      "tags": [
+        "website",
+        "design-brief",
+        "requirements",
+        "ux"
+      ],
+      "version": "0.1.0",
+      "path": "skills/website-creation-skills/web-design-brief-builder/SKILL.md"
+    },
+    {
+      "name": "landing-page-wireframe-draft",
+      "module": "website-creation-skills",
+      "category": "website-creation-skills",
+      "scope": "creative-workflow",
+      "description": "Draft low-fidelity landing page wireframe structure, section logic, and content placeholders.",
+      "tags": [
+        "website",
+        "wireframe",
+        "landing-page",
+        "draft-only"
+      ],
+      "version": "0.1.0",
+      "path": "skills/website-creation-skills/landing-page-wireframe-draft/SKILL.md"
+    },
+    {
+      "name": "ui-design-system-audit",
+      "module": "website-creation-skills",
+      "category": "website-creation-skills",
+      "scope": "creative-workflow",
+      "description": "Audit existing UI design system consistency across tokens, components, accessibility, and interaction patterns.",
+      "tags": [
+        "website",
+        "design-system",
+        "audit",
+        "read-only"
+      ],
+      "version": "0.1.0",
+      "path": "skills/website-creation-skills/ui-design-system-audit/SKILL.md"
+    },
+    {
+      "name": "web-animation-microinteraction-concept",
+      "module": "website-creation-skills",
+      "category": "website-creation-skills",
+      "scope": "creative-workflow",
+      "description": "Concept web-specific motion and microinteraction behaviors aligned to UX goals and brand tone.",
+      "tags": [
+        "website",
+        "animation",
+        "microinteraction",
+        "concept"
+      ],
+      "version": "0.1.0",
+      "path": "skills/website-creation-skills/web-animation-microinteraction-concept/SKILL.md"
+    },
+    {
+      "name": "superdesign-ui-prompt-adapter",
+      "module": "website-creation-skills",
+      "category": "website-creation-skills",
+      "scope": "creative-workflow",
+      "description": "Convert approved web requirements into reusable UI prompt scaffolds inspired by superdesign prompt patterns.",
+      "tags": [
+        "website",
+        "prompting",
+        "ui-spec",
+        "superdesign-inspired"
+      ],
+      "version": "0.1.0",
+      "path": "skills/website-creation-skills/superdesign-ui-prompt-adapter/SKILL.md"
+    },
+    {
+      "name": "video-edit-plan",
+      "module": "video-creation-skills",
+      "category": "video-creation-skills",
+      "scope": "creative-workflow",
+      "description": "Draft structured video edit plan including pacing, transitions, audio cues, and review checkpoints.",
+      "tags": [
+        "video",
+        "editing",
+        "planning",
+        "draft-only"
+      ],
+      "version": "0.1.0",
+      "path": "skills/video-creation-skills/video-edit-plan/SKILL.md"
+    },
+    {
+      "name": "short-form-video-script",
+      "module": "video-creation-skills",
+      "category": "video-creation-skills",
+      "scope": "creative-workflow",
+      "description": "Draft short-form video scripts with hook, narrative beats, CTA, and platform-fit pacing.",
+      "tags": [
+        "video",
+        "script",
+        "short-form",
+        "draft-only"
+      ],
+      "version": "0.1.0",
+      "path": "skills/video-creation-skills/short-form-video-script/SKILL.md"
+    },
+    {
+      "name": "storyboard-scene-builder",
+      "module": "video-creation-skills",
+      "category": "video-creation-skills",
+      "scope": "creative-workflow",
+      "description": "Build scene-by-scene storyboard drafts for video narratives, transitions, and production alignment.",
+      "tags": [
+        "video",
+        "storyboard",
+        "scenes",
+        "planning"
+      ],
+      "version": "0.1.0",
+      "path": "skills/video-creation-skills/storyboard-scene-builder/SKILL.md"
+    },
+    {
+      "name": "video-content-calendar",
+      "module": "video-creation-skills",
+      "category": "video-creation-skills",
+      "scope": "creative-workflow",
+      "description": "Plan recurring video publishing schedule with themes, formats, dependencies, and review cadence.",
+      "tags": [
+        "video",
+        "calendar",
+        "planning",
+        "operations"
+      ],
+      "version": "0.1.0",
+      "path": "skills/video-creation-skills/video-content-calendar/SKILL.md"
+    },
+    {
+      "name": "brand-visual-identity-brief",
+      "module": "graphic-design-creation-skills",
+      "category": "graphic-design-creation-skills",
+      "scope": "creative-workflow",
+      "description": "Draft visual identity brief covering style direction, usage constraints, and deliverable requirements.",
+      "tags": [
+        "graphic-design",
+        "brand-identity",
+        "brief",
+        "requirements"
+      ],
+      "version": "0.1.0",
+      "path": "skills/graphic-design-creation-skills/brand-visual-identity-brief/SKILL.md"
+    },
+    {
+      "name": "social-graphic-concept",
+      "module": "graphic-design-creation-skills",
+      "category": "graphic-design-creation-skills",
+      "scope": "creative-workflow",
+      "description": "Draft social graphic concept packages with message hierarchy, layout intent, and asset requirements.",
+      "tags": [
+        "graphic-design",
+        "social",
+        "concept",
+        "draft-only"
+      ],
+      "version": "0.1.0",
+      "path": "skills/graphic-design-creation-skills/social-graphic-concept/SKILL.md"
+    },
+    {
+      "name": "icon-illustration-brief",
+      "module": "graphic-design-creation-skills",
+      "category": "graphic-design-creation-skills",
+      "scope": "creative-workflow",
+      "description": "Draft icon/illustration requirements brief for style consistency, usage cases, and production constraints.",
+      "tags": [
+        "graphic-design",
+        "icons",
+        "illustration",
+        "brief"
+      ],
+      "version": "0.1.0",
+      "path": "skills/graphic-design-creation-skills/icon-illustration-brief/SKILL.md"
+    },
+    {
+      "name": "print-layout-brief",
+      "module": "print-design-skills",
+      "category": "print-design-skills",
+      "scope": "creative-workflow",
+      "description": "Draft print layout requirements for brochures, flyers, one-pagers, and similar collateral.",
+      "tags": [
+        "print",
+        "layout",
+        "brief",
+        "production-ready"
+      ],
+      "version": "0.1.0",
+      "path": "skills/print-design-skills/print-layout-brief/SKILL.md"
+    },
+    {
+      "name": "packaging-design-brief",
+      "module": "print-design-skills",
+      "category": "print-design-skills",
+      "scope": "creative-workflow",
+      "description": "Draft packaging design requirements including dieline context, hierarchy, compliance, and shelf intent.",
+      "tags": [
+        "print",
+        "packaging",
+        "brief",
+        "requirements"
+      ],
+      "version": "0.1.0",
+      "path": "skills/print-design-skills/packaging-design-brief/SKILL.md"
+    },
+    {
+      "name": "print-production-checklist",
+      "module": "print-design-skills",
+      "category": "print-design-skills",
+      "scope": "creative-workflow",
+      "description": "Provide read-only print production QA checklist for prepress readiness and handoff verification.",
+      "tags": [
+        "print",
+        "production",
+        "checklist",
+        "read-only"
+      ],
+      "version": "0.1.0",
+      "path": "skills/print-design-skills/print-production-checklist/SKILL.md"
+    }
+  ],
+  "import_copy": true,
+  "source": {
+    "owner": "danthamanvoiss",
+    "repo": "SalesPortl-Agency-Skills-Suite-v01",
+    "branch": "main",
+    "commit": "12f7e3f9343e612125fb8595596f3b3b0360ec74"
+  },
+  "generated_at": "2026-09-20T09:00:19.916264+00:00"
+}
