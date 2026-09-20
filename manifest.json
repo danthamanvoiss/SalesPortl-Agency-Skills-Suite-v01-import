@@ -1,0 +1,455 @@
+{
+  "manifest_version": "1.0",
+  "type": "skill-import-index",
+  "authoritative": true,
+  "suite": "SalesPortl Agency Skills Suite",
+  "version": "1.0.0",
+  "source": {
+    "owner": "danthamanvoiss",
+    "repo": "SalesPortl-Agency-Skills-Suite-v01",
+    "branch": "main",
+    "commit": "12f7e3f9343e612125fb8595596f3b3b0360ec74"
+  },
+  "generated_at": "2026-09-20T09:00:19.916264+00:00",
+  "total_skills": 73,
+  "skills": [
+    {
+      "name": "agency-router",
+      "module": "core",
+      "category": "core",
+      "path": "skills/core/agency-router/SKILL.md"
+    },
+    {
+      "name": "sales-router",
+      "module": "core",
+      "category": "core",
+      "path": "skills/core/sales-router/SKILL.md"
+    },
+    {
+      "name": "marketing-router",
+      "module": "core",
+      "category": "core",
+      "path": "skills/core/marketing-router/SKILL.md"
+    },
+    {
+      "name": "seo-geo-router",
+      "module": "core",
+      "category": "core",
+      "path": "skills/core/seo-geo-router/SKILL.md"
+    },
+    {
+      "name": "client-success-router",
+      "module": "core",
+      "category": "core",
+      "path": "skills/core/client-success-router/SKILL.md"
+    },
+    {
+      "name": "partners-router",
+      "module": "core",
+      "category": "core",
+      "path": "skills/core/partners-router/SKILL.md"
+    },
+    {
+      "name": "ai-creative-router",
+      "module": "core",
+      "category": "core",
+      "path": "skills/core/ai-creative-router/SKILL.md"
+    },
+    {
+      "name": "website-creation-router",
+      "module": "core",
+      "category": "core",
+      "path": "skills/core/website-creation-router/SKILL.md"
+    },
+    {
+      "name": "video-creation-router",
+      "module": "core",
+      "category": "core",
+      "path": "skills/core/video-creation-router/SKILL.md"
+    },
+    {
+      "name": "graphic-design-router",
+      "module": "core",
+      "category": "core",
+      "path": "skills/core/graphic-design-router/SKILL.md"
+    },
+    {
+      "name": "print-design-router",
+      "module": "core",
+      "category": "core",
+      "path": "skills/core/print-design-router/SKILL.md"
+    },
+    {
+      "name": "brand-context-brief-builder",
+      "module": "core",
+      "category": "core",
+      "path": "skills/core/brand-context-brief-builder/SKILL.md"
+    },
+    {
+      "name": "brand-client-context-onboarding",
+      "module": "core",
+      "category": "core",
+      "path": "skills/core/brand-client-context-onboarding/SKILL.md"
+    },
+    {
+      "name": "context-loader",
+      "module": "core",
+      "category": "core",
+      "path": "skills/core/context-loader/SKILL.md"
+    },
+    {
+      "name": "skill-handoff-protocol",
+      "module": "core",
+      "category": "core",
+      "path": "skills/core/skill-handoff-protocol/SKILL.md"
+    },
+    {
+      "name": "output-organization-guide",
+      "module": "core",
+      "category": "core",
+      "path": "skills/core/output-organization-guide/SKILL.md"
+    },
+    {
+      "name": "cross-harness-collaboration-notes",
+      "module": "core",
+      "category": "core",
+      "path": "skills/core/cross-harness-collaboration-notes/SKILL.md"
+    },
+    {
+      "name": "skill-selection-guide",
+      "module": "core",
+      "category": "core",
+      "path": "skills/core/skill-selection-guide/SKILL.md"
+    },
+    {
+      "name": "release-readiness-check",
+      "module": "core",
+      "category": "core",
+      "path": "skills/core/release-readiness-check/SKILL.md"
+    },
+    {
+      "name": "skill-boundary-audit",
+      "module": "core",
+      "category": "core",
+      "path": "skills/core/skill-boundary-audit/SKILL.md"
+    },
+    {
+      "name": "catalog-maintenance-guide",
+      "module": "core",
+      "category": "core",
+      "path": "skills/core/catalog-maintenance-guide/SKILL.md"
+    },
+    {
+      "name": "routing-confidence-check",
+      "module": "core",
+      "category": "core",
+      "path": "skills/core/routing-confidence-check/SKILL.md"
+    },
+    {
+      "name": "v1-launch-checklist",
+      "module": "core",
+      "category": "core",
+      "path": "skills/core/v1-launch-checklist/SKILL.md"
+    },
+    {
+      "name": "router-first-use-guide",
+      "module": "core",
+      "category": "core",
+      "path": "skills/core/router-first-use-guide/SKILL.md"
+    },
+    {
+      "name": "context-first-workflow-guide",
+      "module": "core",
+      "category": "core",
+      "path": "skills/core/context-first-workflow-guide/SKILL.md"
+    },
+    {
+      "name": "crm-workflow-blueprint",
+      "module": "core",
+      "category": "core",
+      "path": "skills/core/crm-workflow-blueprint/SKILL.md"
+    },
+    {
+      "name": "lead-qualification",
+      "module": "sales",
+      "category": "sales",
+      "path": "skills/sales/lead-qualification/SKILL.md"
+    },
+    {
+      "name": "discovery-call-prep",
+      "module": "sales",
+      "category": "sales",
+      "path": "skills/sales/discovery-call-prep/SKILL.md"
+    },
+    {
+      "name": "outreach-sequence-draft",
+      "module": "sales",
+      "category": "sales",
+      "path": "skills/sales/outreach-sequence-draft/SKILL.md"
+    },
+    {
+      "name": "proposal-scope-draft",
+      "module": "sales",
+      "category": "sales",
+      "path": "skills/sales/proposal-scope-draft/SKILL.md"
+    },
+    {
+      "name": "salesportl-account-handoff",
+      "module": "sales",
+      "category": "sales",
+      "path": "skills/sales/salesportl-account-handoff/SKILL.md"
+    },
+    {
+      "name": "website-marketing-audit",
+      "module": "marketing",
+      "category": "marketing",
+      "path": "skills/marketing/website-marketing-audit/SKILL.md"
+    },
+    {
+      "name": "offer-positioning",
+      "module": "marketing",
+      "category": "marketing",
+      "path": "skills/marketing/offer-positioning/SKILL.md"
+    },
+    {
+      "name": "campaign-plan",
+      "module": "marketing",
+      "category": "marketing",
+      "path": "skills/marketing/campaign-plan/SKILL.md"
+    },
+    {
+      "name": "content-calendar",
+      "module": "marketing",
+      "category": "marketing",
+      "path": "skills/marketing/content-calendar/SKILL.md"
+    },
+    {
+      "name": "landing-page-cro-review",
+      "module": "marketing",
+      "category": "marketing",
+      "path": "skills/marketing/landing-page-cro-review/SKILL.md"
+    },
+    {
+      "name": "seo-geo-opportunity-audit",
+      "module": "seo-geo",
+      "category": "seo-geo",
+      "path": "skills/seo-geo/seo-geo-opportunity-audit/SKILL.md"
+    },
+    {
+      "name": "ai-citability-content-review",
+      "module": "seo-geo",
+      "category": "seo-geo",
+      "path": "skills/seo-geo/ai-citability-content-review/SKILL.md"
+    },
+    {
+      "name": "local-visibility-review",
+      "module": "seo-geo",
+      "category": "seo-geo",
+      "path": "skills/seo-geo/local-visibility-review/SKILL.md"
+    },
+    {
+      "name": "client-onboarding-plan",
+      "module": "client-success",
+      "category": "client-success",
+      "path": "skills/client-success/client-onboarding-plan/SKILL.md"
+    },
+    {
+      "name": "monthly-client-review",
+      "module": "client-success",
+      "category": "client-success",
+      "path": "skills/client-success/monthly-client-review/SKILL.md"
+    },
+    {
+      "name": "retention-and-upsell-review",
+      "module": "client-success",
+      "category": "client-success",
+      "path": "skills/client-success/retention-and-upsell-review/SKILL.md"
+    },
+    {
+      "name": "affiliate-enablement",
+      "module": "partners",
+      "category": "partners",
+      "path": "skills/partners/affiliate-enablement/SKILL.md"
+    },
+    {
+      "name": "appointment-setting-playbook",
+      "module": "sales",
+      "category": "sales",
+      "path": "skills/sales/appointment-setting-playbook/SKILL.md"
+    },
+    {
+      "name": "objection-handling-draft",
+      "module": "sales",
+      "category": "sales",
+      "path": "skills/sales/objection-handling-draft/SKILL.md"
+    },
+    {
+      "name": "pipeline-hygiene-review",
+      "module": "sales",
+      "category": "sales",
+      "path": "skills/sales/pipeline-hygiene-review/SKILL.md"
+    },
+    {
+      "name": "meeting-followup-draft",
+      "module": "sales",
+      "category": "sales",
+      "path": "skills/sales/meeting-followup-draft/SKILL.md"
+    },
+    {
+      "name": "referral-program-activation",
+      "module": "partners",
+      "category": "partners",
+      "path": "skills/partners/referral-program-activation/SKILL.md"
+    },
+    {
+      "name": "paid-ads-brief-draft",
+      "module": "marketing",
+      "category": "marketing",
+      "path": "skills/marketing/paid-ads-brief-draft/SKILL.md"
+    },
+    {
+      "name": "social-content-ops-plan",
+      "module": "marketing",
+      "category": "marketing",
+      "path": "skills/marketing/social-content-ops-plan/SKILL.md"
+    },
+    {
+      "name": "creative-brief-generator",
+      "module": "marketing",
+      "category": "marketing",
+      "path": "skills/marketing/creative-brief-generator/SKILL.md"
+    },
+    {
+      "name": "churn-risk-early-warning",
+      "module": "client-success",
+      "category": "client-success",
+      "path": "skills/client-success/churn-risk-early-warning/SKILL.md"
+    },
+    {
+      "name": "qbr-executive-summary-draft",
+      "module": "client-success",
+      "category": "client-success",
+      "path": "skills/client-success/qbr-executive-summary-draft/SKILL.md"
+    },
+    {
+      "name": "service-expansion-planner",
+      "module": "client-success",
+      "category": "client-success",
+      "path": "skills/client-success/service-expansion-planner/SKILL.md"
+    },
+    {
+      "name": "anti-slop-content-review",
+      "module": "ai-creative-skills",
+      "category": "ai-creative-skills",
+      "path": "skills/ai-creative-skills/anti-slop-content-review/SKILL.md"
+    },
+    {
+      "name": "ai-content-pipeline-builder",
+      "module": "ai-creative-skills",
+      "category": "ai-creative-skills",
+      "path": "skills/ai-creative-skills/ai-content-pipeline-builder/SKILL.md"
+    },
+    {
+      "name": "prompt-to-brief-translator",
+      "module": "ai-creative-skills",
+      "category": "ai-creative-skills",
+      "path": "skills/ai-creative-skills/prompt-to-brief-translator/SKILL.md"
+    },
+    {
+      "name": "cross-asset-consistency-check",
+      "module": "ai-creative-skills",
+      "category": "ai-creative-skills",
+      "path": "skills/ai-creative-skills/cross-asset-consistency-check/SKILL.md"
+    },
+    {
+      "name": "web-design-brief-builder",
+      "module": "website-creation-skills",
+      "category": "website-creation-skills",
+      "path": "skills/website-creation-skills/web-design-brief-builder/SKILL.md"
+    },
+    {
+      "name": "landing-page-wireframe-draft",
+      "module": "website-creation-skills",
+      "category": "website-creation-skills",
+      "path": "skills/website-creation-skills/landing-page-wireframe-draft/SKILL.md"
+    },
+    {
+      "name": "ui-design-system-audit",
+      "module": "website-creation-skills",
+      "category": "website-creation-skills",
+      "path": "skills/website-creation-skills/ui-design-system-audit/SKILL.md"
+    },
+    {
+      "name": "web-animation-microinteraction-concept",
+      "module": "website-creation-skills",
+      "category": "website-creation-skills",
+      "path": "skills/website-creation-skills/web-animation-microinteraction-concept/SKILL.md"
+    },
+    {
+      "name": "superdesign-ui-prompt-adapter",
+      "module": "website-creation-skills",
+      "category": "website-creation-skills",
+      "path": "skills/website-creation-skills/superdesign-ui-prompt-adapter/SKILL.md"
+    },
+    {
+      "name": "video-edit-plan",
+      "module": "video-creation-skills",
+      "category": "video-creation-skills",
+      "path": "skills/video-creation-skills/video-edit-plan/SKILL.md"
+    },
+    {
+      "name": "short-form-video-script",
+      "module": "video-creation-skills",
+      "category": "video-creation-skills",
+      "path": "skills/video-creation-skills/short-form-video-script/SKILL.md"
+    },
+    {
+      "name": "storyboard-scene-builder",
+      "module": "video-creation-skills",
+      "category": "video-creation-skills",
+      "path": "skills/video-creation-skills/storyboard-scene-builder/SKILL.md"
+    },
+    {
+      "name": "video-content-calendar",
+      "module": "video-creation-skills",
+      "category": "video-creation-skills",
+      "path": "skills/video-creation-skills/video-content-calendar/SKILL.md"
+    },
+    {
+      "name": "brand-visual-identity-brief",
+      "module": "graphic-design-creation-skills",
+      "category": "graphic-design-creation-skills",
+      "path": "skills/graphic-design-creation-skills/brand-visual-identity-brief/SKILL.md"
+    },
+    {
+      "name": "social-graphic-concept",
+      "module": "graphic-design-creation-skills",
+      "category": "graphic-design-creation-skills",
+      "path": "skills/graphic-design-creation-skills/social-graphic-concept/SKILL.md"
+    },
+    {
+      "name": "icon-illustration-brief",
+      "module": "graphic-design-creation-skills",
+      "category": "graphic-design-creation-skills",
+      "path": "skills/graphic-design-creation-skills/icon-illustration-brief/SKILL.md"
+    },
+    {
+      "name": "print-layout-brief",
+      "module": "print-design-skills",
+      "category": "print-design-skills",
+      "path": "skills/print-design-skills/print-layout-brief/SKILL.md"
+    },
+    {
+      "name": "packaging-design-brief",
+      "module": "print-design-skills",
+      "category": "print-design-skills",
+      "path": "skills/print-design-skills/packaging-design-brief/SKILL.md"
+    },
+    {
+      "name": "print-production-checklist",
+      "module": "print-design-skills",
+      "category": "print-design-skills",
+      "path": "skills/print-design-skills/print-production-checklist/SKILL.md"
+    }
+  ]
+}
