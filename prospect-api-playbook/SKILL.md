@@ -1,8 +1,8 @@
 ---
 name: prospect-api-playbook
-description: Use Prospect for company enrichment, email finding and verification, and campaign suppression, read-only first and with explicit approval for any write.
+description: Prospecting skill for finding and enriching leads with Prospect (a dgtldash.com product): company enrichment, email finding and verification, and suppression, read-only first.
 version: 0.1.0
-tags: [tools-and-products, prospect, enrichment, email, api]
+tags: [tools-and-products, prospecting, lead-generation, prospect, enrichment, email, api]
 ---
 
 ## Purpose
@@ -14,7 +14,7 @@ Guide safe, efficient use of Prospect (the outreach and enrichment product) for 
 
 ## Required inputs
 - The leads or domains to process and what outcome is wanted.
-- Confirmation that Prospect access is configured (see Safety/authority).
+- Confirmation that Prospect access is configured. If it is not, use `dgtldash-product-access-setup` first.
 - For any write action: the exact records and an explicit approval.
 
 ## Safety/authority
@@ -25,7 +25,7 @@ Guide safe, efficient use of Prospect (the outreach and enrichment product) for 
 - Do not log full responses that contain personal data.
 
 ## Workflow
-1. Confirm access and pick 3 to 5 sample records.
+1. Confirm access (if no key, API connection, or Prospect tool is available, stop and route to `dgtldash-product-access-setup`; do not guess or fabricate results) and pick 3 to 5 sample records.
 2. Run read-only calls on the sample and review the results for quality and gaps.
 3. Check response shape and failures, then size the full batch and ask for approval.
 4. Run the batch in controlled chunks, saving results alongside the original records without overwriting them.
@@ -46,4 +46,4 @@ Guide safe, efficient use of Prospect (the outreach and enrichment product) for 
 - Original data is preserved and writes were approved.
 
 ## Related skills
-lead-list-segmentation, lead-source-tracing, email-deliverability-checklist
+dgtldash-product-access-setup, prospecting-router, prospect-list-segmentation, prospect-source-tracing, email-deliverability-checklist

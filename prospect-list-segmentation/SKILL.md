@@ -1,8 +1,8 @@
 ---
-name: lead-list-segmentation
-description: Turn a raw lead list into ICP-tagged segments by offer, with a clear rule for which leads get paid enrichment.
+name: prospect-list-segmentation
+description: Prospecting skill that turns a raw lead or prospect list into ICP-tagged segments by offer, with a clear rule for which prospects get paid enrichment.
 version: 0.1.0
-tags: [sales, lead-data, segmentation, icp, draft-only]
+tags: [sales, prospecting, lead-generation, lead-data, segmentation, icp, draft-only]
 ---
 
 ## Purpose
@@ -44,4 +44,4 @@ Organize combined lead data into segments per product or service offering, tag I
 - Excluded groups are listed, not silently dropped.
 
 ## Related skills
-lead-qualification, lead-source-tracing, icebreaker-writer
+lead-qualification, prospect-source-tracing, prospect-icebreaker-writer, prospecting-router

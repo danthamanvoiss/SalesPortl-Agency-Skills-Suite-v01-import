@@ -1,8 +1,8 @@
 ---
-name: icebreaker-writer
-description: Write short, relevant, person-to-person icebreaker lines per lead that say why you are reaching out without feeling invasive.
+name: prospect-icebreaker-writer
+description: Prospecting skill that writes short, relevant, person-to-person icebreaker opening lines for each prospect or lead, saying why you are reaching out without feeling invasive.
 version: 0.1.0
-tags: [sales, outreach, personalization, draft-only]
+tags: [sales, prospecting, outreach, personalization, draft-only]
 ---
 
 ## Purpose
@@ -45,4 +45,4 @@ Produce a one-to-two sentence opener per lead that is casual, honest about why y
 - Nothing creepy: no over-precise details.
 
 ## Related skills
-outreach-sequence-draft, lead-list-segmentation, anti-slop-content-review
+outreach-sequence-draft, prospect-list-segmentation, anti-slop-content-review, prospecting-router

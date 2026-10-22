@@ -2,7 +2,7 @@
 name: email-deliverability-checklist
 description: Pre-send checklist for cold email covering domain setup, list hygiene, volume ramp, content, and opt-out compliance.
 version: 0.1.0
-tags: [sales, outreach, email, deliverability, compliance, read-only]
+tags: [sales, prospecting, outreach, email, deliverability, compliance, read-only]
 ---
 
 ## Purpose
@@ -43,4 +43,4 @@ Catch the common causes of spam placement and compliance problems before a campa
 - Fixes are specific and ordered by impact.
 
 ## Related skills
-outreach-sequence-draft, campaign-plan, pipeline-hygiene-review
+outreach-sequence-draft, campaign-plan, pipeline-hygiene-review, prospecting-router
