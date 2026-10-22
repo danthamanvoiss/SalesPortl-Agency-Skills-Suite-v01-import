@@ -1,7 +1,7 @@
 ---
 name: partners-router
 description: Route partner, affiliate, and referral-program work to the right enablement skill with simple program-stage clarification.
-version: 1.0.0
+version: 1.0.1
 tags: [core, routing, partners, v1]
 ---
 
@@ -33,6 +33,7 @@ Keep partner work simple by separating affiliate enablement from referral-progra
 2. Route to:
    - `affiliate-enablement` for recruiting, briefing, and enabling affiliates
    - `referral-program-activation` for standing up or refreshing a referral motion
+   - if partners need to find their own prospects, also point to `prospecting-router`
 3. Select only one partner skill unless the user clearly needs both in sequence.
 4. Optionally pair with `anti-slop-content-review` when partner-facing copy quality is part of the deliverable.
 5. If the requested skill is unavailable, use the closest partner alternative or ask for clarification.
