@@ -1,7 +1,7 @@
 ---
 name: prospect-api-playbook
 description: Prospecting skill for finding and enriching leads with Prospect (a dgtldash.com product): company enrichment, email finding and verification, and suppression, read-only first.
-version: 0.2.0
+version: 0.3.0
 tags: [tools-and-products, prospecting, lead-generation, prospect, enrichment, email, api]
 ---
 
@@ -31,6 +31,7 @@ Guide safe, efficient use of Prospect (the outreach and enrichment product) for 
 - The email check only classifies business vs disposable. It does not prove a mailbox exists, so use a real verifier before any send.
 - Responses come back as HTTP 200 even on errors and the success flag can be true on an error message. Check for the data you expect, not the status.
 - Send an ordinary User-Agent header; the default of some HTTP libraries is blocked.
+- Credits can run out: after about 470 enrichment calls one account started returning "You don't have anymore credits, please upgrade to use more." (HTTP 200, in the event field) and was still blocked hours later. Confirm the account's real allowance before a large batch, stop on the first credits message rather than retrying, and use one probe call per retry.
 - Rate limits are undocumented. Drip-feed: about one call per second, chunks of 50 to 100, and stop on any error or slowdown. No throttling appeared in 60 calls at that pace.
 - Match people by first and last name, and keep the matched address in a separate enrichment file rather than overwriting the source list.
 
