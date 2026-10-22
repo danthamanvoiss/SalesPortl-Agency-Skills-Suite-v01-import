@@ -37,6 +37,8 @@ Choose the right 1–3 sales skills after a small amount of sales-specific clari
    - scheduling and conversion: `appointment-setting-playbook`
    - proposal or handoff: `proposal-scope-draft` or `salesportl-account-handoff`
    - pipeline cleanup: `pipeline-hygiene-review`
+   - finding and sourcing prospects (lead generation, lead data, enrichment): hand off to `prospecting-router`; direct skills are `prospect-list-segmentation`, `prospect-source-tracing`, `prospect-icebreaker-writer`, `email-deliverability-checklist`
+   - Prospect enrichment and email verification: `prospect-api-playbook`
 3. Select 1–3 skills maximum, usually one execution skill plus one adjacent support skill.
 4. If the task includes approved message quality review, optionally pair with `anti-slop-content-review`.
 5. If the exact requested sales skill is unavailable, choose the closest same-stage alternative that is available or ask a clarifying question.

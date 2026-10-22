@@ -27,10 +27,11 @@ Act as the top-level `agency-skills-router` entrypoint while keeping the compati
 
 ## Workflow
 1. Resolve context first with `context-loader` so the route starts from harness-native context, root defaults, or the most specific client folder available.
-2. Classify the task into the smallest relevant family: sales, marketing, seo-geo, client success, partners, AI creative, website creation, video creation, graphic design, print design, or a simple direct core skill.
+2. Classify the task into the smallest relevant family: prospecting and lead generation, sales, marketing, seo-geo, client success, partners, AI creative, website creation, video creation, graphic design, print design, or a simple direct core skill.
 3. If the request is ambiguous, missing critical inputs, or mixes multiple families unclearly, ask the minimum clarifying question before selecting downstream skills.
 4. If reusable brand/client context is missing or unclear, route to `brand-client-context-onboarding`. If context exists but needs a reusable working brief, pair or precede with `brand-context-brief-builder`.
 5. Route to exactly one category sub-router when category-specific clarification is still needed:
+   - `prospecting-router` (finding people or companies who need our products: lead generation, prospecting, enrichment, lead data)
    - `sales-router`
    - `marketing-router`
    - `seo-geo-router`
