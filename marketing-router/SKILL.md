@@ -1,7 +1,7 @@
 ---
 name: marketing-router
 description: Route marketing work to the right planning, positioning, audit, or campaign skill with concise channel-specific clarification.
-version: 1.0.0
+version: 1.0.1
 tags: [core, routing, marketing, v1]
 ---
 
@@ -34,6 +34,7 @@ Keep marketing work tight by separating audits, positioning, campaign planning, 
    - audit or funnel review: `website-marketing-audit` or `landing-page-cro-review`
    - positioning: `offer-positioning`
    - multi-channel planning: `campaign-plan`
+   - finding or building the audience (leads, prospects, lists, enrichment): `prospecting-router`
    - publishing cadence: `content-calendar` or `social-content-ops-plan`
    - ad planning: `paid-ads-brief-draft`
    - requirements for downstream creative/media work: `creative-brief-generator`

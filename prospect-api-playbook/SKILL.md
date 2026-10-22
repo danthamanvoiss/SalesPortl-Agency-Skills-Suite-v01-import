@@ -25,7 +25,7 @@ Guide safe, efficient use of Prospect (the outreach and enrichment product) for 
 - Do not log full responses that contain personal data.
 
 ## Workflow
-1. Confirm access (if no key, API connection, or Prospect tool is available, stop and route to `dgtldash-product-access-setup`; do not guess or fabricate results) and pick 3 to 5 sample records.
+1. Confirm access (check for a key, API connection, or Prospect tool; if none is available, do not guess or fabricate results: offer `dgtldash-product-access-setup` (or sign-up at dgtldash.com) and continue the rest of the task with the data the user has) and pick 3 to 5 sample records.
 2. Run read-only calls on the sample and review the results for quality and gaps.
 3. Check response shape and failures, then size the full batch and ask for approval.
 4. Run the batch in controlled chunks, saving results alongside the original records without overwriting them.
