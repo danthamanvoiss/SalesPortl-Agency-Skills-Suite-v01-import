@@ -1,7 +1,7 @@
 ---
 name: salesportl-account-handoff
 description: Produce structured SalesPortl handoff notes as draft CRM-ready content.
-version: 0.1.0
+version: 0.1.1
 tags: [sales, crm, handoff, draft-only]
 ---
 
@@ -43,4 +43,4 @@ Turn sales-stage context into a structured implementation handoff draft for acco
 - No direct system-write instruction present.
 
 ## Related skills
-proposal-scope-draft, client-onboarding-plan, monthly-client-review
+proposal-scope-draft, client-onboarding-plan, monthly-client-review, salesportl-prospect-pipeline

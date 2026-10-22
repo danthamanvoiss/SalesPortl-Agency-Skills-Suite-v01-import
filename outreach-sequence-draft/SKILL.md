@@ -1,7 +1,7 @@
 ---
 name: outreach-sequence-draft
 description: Create compliant cold/warm/referral outreach drafts with opt-out awareness.
-version: 0.1.1
+version: 0.1.2
 tags: [sales, outreach, email, draft-only]
 ---
 
@@ -45,4 +45,4 @@ Draft multi-touch outreach messaging while preserving trust, compliance, and del
 - No send/publish action implied.
 
 ## Related skills
-offer-positioning, campaign-plan, affiliate-enablement, prospecting-router, prospect-api-playbook, email-deliverability-checklist
+offer-positioning, campaign-plan, affiliate-enablement, prospecting-router, prospect-api-playbook, email-deliverability-checklist, plusone-cold-outreach-sync

@@ -1,7 +1,7 @@
 ---
 name: dgtldash-product-access-setup
 description: Help a user get and configure access to dgtldash.com products (Prospect, PlusOne, Database) when an API key, MCP tool, or environment is not set up yet.
-version: 0.1.0
+version: 0.1.1
 tags: [tools-and-products, prospecting, setup, api-key, environment, mcp]
 ---
 
@@ -31,7 +31,7 @@ When a prospecting or product skill needs a dgtldash.com product (for example Pr
    - connected tool (MCP) when the product's tool is available in the harness: enable it in the harness's tool or connector settings;
    - API from an agent workflow or automation: store the key as a secret in the environment, then call the product endpoints from the workflow;
    - code execution: store the key as an environment variable or secret in the execution environment and call the API from code, never hard-coding it.
-4. For SalesPortl, set it up where the workspace keeps environment secrets and automations: [confirm exact location in your SalesPortl workspace documentation].
+4. In SalesPortl, the routes are: a workflow API Lookup step (HTTP GET or POST with headers, a JSON body, workflow variables, and response mapping; use its Test button before activating); an Execute Code step in a workflow for custom calls (Python, JavaScript, TypeScript, Bash and others, with dependencies you can install); or an MCP connector (assistant Settings > Connectors for the AI assistant, or the agent's integrations > MCP server option for agents; MCP connections are personal to the user who connects). Webhook triggers let outside tools push data into SalesPortl. Keep keys in a variable or code environment value rather than in prompts or message text, and [confirm in your SalesPortl workspace documentation] where your workspace keeps secrets.
 5. Test with one read-only call on a small sample and confirm the result without displaying the key.
 6. If anything is unavailable or failing, tell the user what is missing and direct them to dgtldash.com for support or to request access.
 
