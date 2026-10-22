@@ -1,7 +1,7 @@
 ---
 name: pipeline-hygiene-review
 description: Review pipeline records for stage accuracy, stale deals, missing fields, and next-action clarity.
-version: 0.1.1
+version: 0.1.2
 tags: [sales, pipeline, crm, read-only]
 ---
 
@@ -50,4 +50,4 @@ Review pipeline records for stage accuracy, stale deals, missing fields, and nex
 
 ## Related skills
 
-crm-workflow-blueprint, lead-qualification, salesportl-account-handoff, prospect-api-playbook, prospecting-router
+crm-workflow-blueprint, lead-qualification, salesportl-account-handoff, prospect-api-playbook, prospecting-router, salesportl-prospect-pipeline
