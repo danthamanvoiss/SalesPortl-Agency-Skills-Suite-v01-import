@@ -23,11 +23,12 @@ Do real work in a SalesPortl account with the right tools in the right order: id
 - Before any email or SMS, call `get_messaging_context` and get approval for the exact recipients and text. Sends have a short undo window; scheduled sends can be cancelled with `cancel_scheduled_message`.
 - Approval before: `send_email`, `send_sms`, `make_ai_phone_call`, `buy_phone_numbers`, `release_phone_number`, `publish_site`, `publish_form`, `publish_cms_entries`, `activate_ai_agent`, `activate_agent_workflow`, `set_ad_status`, `update_ad_budget`, `create_payout_batch`, `mark_payout_paid`, `apply_snapshot`, every `delete_*`, and anything in billing or SaaS plans.
 - Never report something as done, live, or fixed from your own writes; run `verify_artifact` and relay its result.
+- Work for a client belongs in the client's own sub-account connection; this connection's `list_sub_accounts` only shows which exist.
 - `ask_assistant` uses account credits and acts on its own within the app's approval rules; prefer direct tools when the steps are known.
 
 ## Workflow
 1. `whoami`; then `get_my_account_plan` if a feature may be plan-gated.
-2. Load the context tool for the area (table below) before the first write in that area.
+2. Load the area's context tool (first list under Tool-call reference) before the first write in that area.
 3. Read existing records (`list_*`, `get_*`) and reuse them; do not duplicate pipelines, tags, fields, or agents.
 4. Build or change with the area's write tools. For workflows, browse `search_workflow_capabilities` and read `get_workflow_capability_docs` for every step and trigger type before `create_agent_workflow`.
 5. Verify: `verify_artifact` (stage completion, then activation or publish before going live). For an inherited account, `run_account_audit` (deterministic is free and read-only).

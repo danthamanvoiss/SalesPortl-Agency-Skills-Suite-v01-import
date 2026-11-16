@@ -32,7 +32,7 @@ Route work that has to happen inside one of our products to the one product skil
    - Loyalty and membership cards, stamps and points, pushes, promotions, games, loyalty workflows: `hiscore-loyalty-operator`
    - LinkedIn and email outreach campaigns, sequences, unified inbox, reply agents: `plusone-outreach-operator`
    - Turning an API into an MCP server, branded servers per client, the MCP gateway: `toolbox-mcp-builder`
-3. For lead sourcing and prospect lists, send the task to `prospecting-router` instead; it calls these skills when product work starts.
+3. For lead sourcing and prospect lists, send the task to `prospecting-router` when it is installed (SalesPortl Agency Skills Suite); it calls these skills when product work starts.
 4. Hand off with the account, the authority level, and the outcome. One product skill at a time unless the task is a sync.
 
 ## Output format

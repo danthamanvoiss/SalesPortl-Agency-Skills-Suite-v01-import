@@ -31,7 +31,7 @@ Build and run digital wallet loyalty programs in HiScore: choose the right card 
 1. `whoami`; `list_templates` and `list_locations` to see what exists.
 2. Pick the mechanic: stamp (punch card), reward (points, spend, visits), cashback, discount (tiered), subscription (visit packs), certificate (gift card), coupon (first visit, converts to another card), membership (tiers, paid or free).
 3. Draft the template: name, type, custom fields with one unique phone or email field, mechanics, settings (expiry, welcome bonuses, referral, legal), appearance. `create_template`, then add tiers or feedback links with the template tools. Keep it inactive until approved.
-4. Distribution: install links and QR from `get_template`; tracked links with `create_utm_link`; a review-gated wheel with `create_game` (draft) and `create_game_utm_link`.
+4. Distribution: install links and QR from `get_template`; tracked links with `create_utm_link`; a review-gated wheel with `create_game` (pass `active` false; needs Games enabled, and its coupon prize must be an active coupon template) and `create_game_utm_link`.
 5. Engagement: built-in autopushes via `list_template_autopushes` and `update_template_autopush`; custom ones via `create_custom_autopush`; segments via `list_segments`; automations via `list_workflow_triggers`, `list_workflow_actions`, `list_workflow_filters`, then `create_workflow` (paused until approved).
 6. Measure: `get_revenue_statistics`, `get_template_reward_stats`, `get_template_utm_stats`, `get_game_stats`, `list_operations`.
 7. Report and list what awaits approval.
@@ -54,7 +54,7 @@ Build and run digital wallet loyalty programs in HiScore: choose the right card 
 | Revenue | `get_revenue_statistics` | none |
 | White label | `list_white_label_domains`, `get_white_label_dashboard_branding`, `get_white_label_scanner_branding`, `get_white_label_promo_branding`, `get_white_label_branding_images`, `get_white_label_subaccount_menu` | `connect_white_label_domain`, `delete_white_label_domain`, `update_white_label_dashboard_branding`, `update_white_label_scanner_branding`, `update_white_label_promo_branding`, `upload_white_label_branding_images`, `delete_white_label_branding_images`, `update_white_label_subaccount_menu` |
 
-Push text is shown exactly as written; messenger-delivered cards read it as Markdown, so avoid unpaired `* _ \` [`.
+Push text is shown exactly as written. Cards delivered through a messenger read it as Markdown, so avoid unpaired asterisks, underscores, backticks, or square brackets.
 
 ## Output format
 ```

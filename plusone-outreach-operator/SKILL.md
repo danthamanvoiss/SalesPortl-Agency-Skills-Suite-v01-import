@@ -23,7 +23,7 @@ Build and run PlusOne outreach correctly the first time: right account, right au
 - `whoami` first: the plan decides whether Pro steps (EMAIL, QUALIFIER, GPT, FINDER, EVENT) exist. Then `reference` before writing any sequence or status filter; the vocabulary is not guessable (campaign limits live under `campaginLimits`, spelled that way).
 - Never pick the LinkedIn account or mailboxes for the user, never invent a URL, id, tag, or sender, and never copy settings from another campaign. A wrong URL sends real messages to the wrong people.
 - Build sequences only with `flow_set` (or `flow_from_template`). Do not edit a draft with `sequence_update`; launch rebuilds steps from the flow.
-- Approval before: `campaign_launch`, `campaign_set_status` to running, `message_send`, `campaign_send_test_email`, attaching an agent to a live campaign, `campaign_upload_leads` or `campaign_add_prospects` into a running campaign, and every `*_delete`.
+- Approval before: `campaign_launch`, any `campaign_set_status` that starts or resumes sending, `message_send`, `campaign_send_test_email`, attaching an agent to a live campaign, `campaign_upload_leads` or `campaign_add_prospects` into a running campaign, and every `*_delete`.
 - InMails need credits the tools cannot see; raise it before launch. Do not promise zero account risk.
 
 ## Workflow
