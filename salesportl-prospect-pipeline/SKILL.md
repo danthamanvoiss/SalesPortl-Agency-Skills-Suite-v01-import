@@ -1,7 +1,7 @@
 ---
 name: salesportl-prospect-pipeline
 description: Set up and run the prospect pipeline in SalesPortl: import or push leads, tag source and ICP, move prospects from cold to engaged to sales, and trigger actions from stage, tag, field and score changes.
-version: 0.1.0
+version: 0.1.1
 tags: [tools-and-products, prospecting, salesportl, crm, pipeline, lead-generation]
 ---
 
@@ -52,4 +52,4 @@ Use SalesPortl as the home of the prospect pipeline: every prospect keeps its so
 - Automations match the stage rules and do not double-contact.
 
 ## Related skills
-prospecting-router, prospect-list-segmentation, prospect-source-tracing, plusone-cold-outreach-sync, crm-workflow-blueprint, pipeline-hygiene-review, dgtldash-product-access-setup
+prospecting-router, salesportl-mcp-operator, prospect-list-segmentation, prospect-source-tracing, plusone-cold-outreach-sync, crm-workflow-blueprint, pipeline-hygiene-review, dgtldash-product-access-setup

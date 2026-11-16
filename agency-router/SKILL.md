@@ -1,7 +1,7 @@
 ---
 name: agency-router
 description: Top-level agency-skills-router that resolves context first, then routes to the smallest reliable skill set.
-version: 1.0.0
+version: 1.0.1
 tags: [core, routing, safety, token-efficiency, v1]
 ---
 
@@ -32,6 +32,7 @@ Act as the top-level `agency-skills-router` entrypoint while keeping the compati
 4. If reusable brand/client context is missing or unclear, route to `brand-client-context-onboarding`. If context exists but needs a reusable working brief, pair or precede with `brand-context-brief-builder`.
 5. Route to exactly one category sub-router when category-specific clarification is still needed:
    - `prospecting-router` (finding people or companies who need our products: lead generation, prospecting, enrichment, lead data)
+   - `dgtldash-tools-router` (doing the work inside our own software: SalesPortl, HiScore, PlusOne, ToolBox)
    - `sales-router`
    - `marketing-router`
    - `seo-geo-router`
@@ -73,4 +74,4 @@ Act as the top-level `agency-skills-router` entrypoint while keeping the compati
 - No unapproved claims included.
 
 ## Related skills
-context-loader, brand-client-context-onboarding, brand-context-brief-builder, sales-router, marketing-router, seo-geo-router, client-success-router, partners-router, ai-creative-router, website-creation-router, video-creation-router, graphic-design-router, print-design-router, skill-selection-guide, routing-confidence-check
+context-loader, dgtldash-tools-router, brand-client-context-onboarding, brand-context-brief-builder, sales-router, marketing-router, seo-geo-router, client-success-router, partners-router, ai-creative-router, website-creation-router, video-creation-router, graphic-design-router, print-design-router, skill-selection-guide, routing-confidence-check

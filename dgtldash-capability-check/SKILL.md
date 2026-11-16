@@ -1,7 +1,7 @@
 ---
 name: dgtldash-capability-check
 description: Preflight for any DGTLDash product skill: confirms the agent has a browser or API tool, the user's credentials are set, and the user subscribes to the product, before any work starts.
-version: 0.1.0
+version: 0.1.1
 tags: [tools-and-products, dgtldash, preflight, setup]
 ---
 
@@ -9,7 +9,7 @@ tags: [tools-and-products, dgtldash, preflight, setup]
 Stop product skills from failing halfway or guessing. Run this first and tell the user plainly what is missing.
 
 ## Use when
-- A skill for a DGTLDash product (Prospect, PlusOne, SalesPortl and similar) is about to run.
+- A skill for a DGTLDash product (Prospect, PlusOne, SalesPortl, HiScore, ToolBox and similar) is about to run.
 - A product workflow failed at login, at a blocked host, or with a missing-credential error.
 
 ## Required inputs
@@ -39,4 +39,4 @@ Stop product skills from failing halfway or guessing. Run this first and tell th
 - Each failure has one concrete fix for the user.
 
 ## Related skills
-dgtldash-product-access-setup, prospect-browser-use-company-export, prospect-api-playbook
+dgtldash-product-access-setup, dgtldash-tools-router, salesportl-mcp-operator, hiscore-loyalty-operator, plusone-outreach-operator, toolbox-mcp-builder, prospect-browser-use-company-export, prospect-api-playbook

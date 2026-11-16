@@ -1,7 +1,7 @@
 ---
 name: plusone-cold-outreach-sync
 description: Plan and run cold outreach in PlusOne with a two-way lead sync to SalesPortl, so leads are pushed out for cold campaigns and engagement signals flow back to decide who to action as warm.
-version: 0.1.0
+version: 0.1.1
 tags: [tools-and-products, prospecting, plusone, salesportl, cold-outreach, sync]
 ---
 
@@ -53,4 +53,4 @@ Use PlusOne as the cold outreach platform while SalesPortl holds the lead record
 - Opt-outs and bounces are reflected in both tools before the next send.
 
 ## Related skills
-prospecting-router, salesportl-prospect-pipeline, prospect-icebreaker-writer, email-deliverability-checklist, outreach-sequence-draft, dgtldash-product-access-setup
+prospecting-router, plusone-outreach-operator, salesportl-mcp-operator, salesportl-prospect-pipeline, prospect-icebreaker-writer, email-deliverability-checklist, outreach-sequence-draft, dgtldash-product-access-setup
